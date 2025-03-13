@@ -1,0 +1,70 @@
+
+
+.buttons-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 200px;
+    list-style: none;
+    margin-top: 275px;
+}
+
+.buttons-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 200px;
+    list-style: none;
+}
+
+#buttonHealth{
+    background-color: #476b5d;
+    color: #c1986c;
+    border: 0;
+    width: 200px;
+    height: 75px;
+    border-radius: 13px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+#buttonEnergy {
+    background-color: #476b5d;
+    color: #c1986c;
+    border: 0;
+    width: 200px;
+    height: 75px;
+    border-radius: 13px;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+#healthOutput{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#energyOutput{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+body{
+    background: #e0dbd5;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
